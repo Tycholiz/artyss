@@ -8,6 +8,7 @@ $baseurl: '{{ site.baseurl }}/images';
 @import 'libs/functions';
 @import 'libs/mixins';
 @import 'font-awesome.min.css';
+@import 'iziModal.min.css';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic');
 
 @import 'libs/skel';
@@ -1825,5 +1826,32 @@ body.is-mobile {
 		#footer {
 			background-color: darken(_palette(bg), 8);
 		}
+	}
+}
+
+// * iziModal
+.iziModal {
+
+	&-content {
+		form {
+			margin: 2em;
+		}
+		label {
+			color: black;
+		}
+	}
+}
+
+.modal-form {
+	display: flex;
+	flex-direction: column;
+
+	&__message {
+		height: 100px;
+	}
+
+	&__submit {
+		align-self: flex-end;
+		margin-top: 1em;
 	}
 }
