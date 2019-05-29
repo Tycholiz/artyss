@@ -5,9 +5,10 @@ layout: landing
 					<section id="banner">
 						<div class="inner">
 							<h2>{{ site.title }}</h2>
-							<p>{{ site.description | markdownify }}</p>
-							<ul class="actions">
-								<li><a href="#" class="button special">Activate</a></li>
+							<p class="subtitle">Freelance web development<br>
+							with a love for business and aesthetics</p>
+							<ul class="actions vertical">
+								<li><a href="#" class="button special trigger">Contact</a></li>
 							</ul>
 						</div>
 						<a href="#one" class="more scrolly">Learn More</a>
@@ -17,16 +18,40 @@ layout: landing
 					<section id="one" class="wrapper style1 special">
 						<div class="inner">
 							<header class="major">
-								<h2>Arcu aliquet vel lobortis ata nisl<br />
-								eget augue amet aliquet nisl cep donec</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+
+								<h2>3 Reasons <em>Not</em> To Hire Me</h2><br>
+								<p class="subNotToHire">You are looking for...</p>
+								<div class="column-paragraph">
+									<div>
+										<h5>...highly expressive <br> and elegant code.</h5>
+										<hr>
+										<p>I am a business-first designer. I will not optimize a process before it needs optimization.<br>
+										In developing, I spend my time where I think it most helps your business.</p>
+									</div>
+									<div>
+										<h5>...cutting edge, ground-breaking <br> and innovative designs.</h5>
+										<hr>
+										<p>I consider user <a href="https://en.wikipedia.org/wiki/User_interface" target="_blank">UI</a> and <a href="https://en.wikipedia.org/wiki/User_experience" target="_blank">UX</a> decisions to be among the most important of web design. My preferred strategy is to deconstruct components of well-designed sites, and morph them to form an entirely new one.<br>I’m here for functionality, not originality.</p>
+									</div>
+									<div>
+										<h5>...the most optimal tool <br> for the job.</h5>
+										<hr>
+										<p>I use just 2 <a href="#">languages</a>, and a handful of <a href="#">web frameworks</a>. Surprisingly, I can do most jobs with just those tools.<br>
+										What I can't guarantee, is that the tool I choose will be the best one for the job. What I carry is a swiss army knife.
+										The website’s performance won’t suffer, but the code's logic may be less intuitive.</p>
+									</div>
+								</div>
 							</header>
 							<ul class="icons major">
 								<li><span class="icon fa-diamond major style1"><span class="label">Lorem</span></span></li>
 								<li><span class="icon fa-heart-o major style2"><span class="label">Ipsum</span></span></li>
 								<li><span class="icon fa-code major style3"><span class="label">Dolor</span></span></li>
 							</ul>
+							<header class="major">
+								<h2>What I <em>can</em> do for you</h2>
+								<p>Most of my experience comes from working for startups. I have had to develop a very diverse skill-set while working for these companies. This has led me to spotting and executing on opportunities which would have otherwise been missed. Therefore, my biggest assets are my abilities to understand the big picture at a high level, and to learn effectively on
+								the spot.</p>
+							</header>
 						</div>
 					</section>
 
@@ -34,20 +59,20 @@ layout: landing
 					<section id="two" class="wrapper alt style2">
 						<section class="spotlight">
 							<div class="image"><img src="images/responsive.svg" alt="" /></div><div class="content">
-								<h2>Responsive web design</h2>
-								<p>Your website will be made with a mobile-first mentality. For most B2C businesses, more than half of page visits are made from a mobile device. If your website does not perform well for these users, there is a good chance they will not return. Further to this, Google has announced that its web crawlers will use the mobile version of all websites for determining which ones appear at the top of the results.</p>
+								<h2>Responsive</h2>
+								<p>Your website will be made with a mobile-first mentality. The clients of a typical <a href="https://www.investopedia.com/terms/b/btoc.asp" target="_blank">B2C</a> business will access the company website from a mobile phone more than 50% of the time. This makes mobile optimization critical for a presence on the web.</p>
 							</div>
 						</section>
 						<section class="spotlight">
 							<div class="image"><img src="images/webpage.svg" alt="" /></div><div class="content">
 								<h2>Dynamic</h2>
-								<p>If necessary, your website will be able to get data from a database and display it in the browser. Think sites like Amazon, which has a "products page", or Facebook which has a "profile page". All versions of these pages come from the same template, with data <em>dynamically</em> added in from a database.</p>
+								<p>If necessary, your website will be able to get data from a database and display it in the webpage. Think sites like Amazon, which has a <em>products page</em>, or Facebook which has a <em>profile page</em>. All users have their own versions of these pages, which come from the same template. Data is simply <em>dynamically</em> added in from a database.</p>
 							</div>
 						</section>
 						<section class="spotlight">
 							<div class="image"><img src="images/seo.svg" alt="" /></div><div class="content">
 								<h2>Search Engine Optimization (SEO)</h2>
-								<p>Before writing a single line of code, it is imperative that we spend an appropriate amount of time doing keyword research around your particular offering. Google is the principal way in which people seek answers to their questions. This makes it absolutely imperative that <em>your</em> answer appears right on the first page.</p>
+								<p>In the world of Google, how we design our websites has an impact on SEO (Search Engine Optimization). We are better off if we design our websites with the search engine in mind. If we want to get in Google's good graces, we'd better take its implications seriously during the design phase.</p>
 							</div>
 						</section>
 					</section>
@@ -56,34 +81,39 @@ layout: landing
 					<section id="three" class="wrapper style3 special">
 						<div class="inner">
 							<header class="major">
-								<h2>Business First</h2>
-								<p>At the end of the day a website is supposed to support your business. For this reason, everything will be designed around that purpose. I will not spend development hours trying to shave off 30 milliseconds of load time, if there are pages of the site that are not asetically pleasing. </p>
+								<h2>Philosophies</h2>
 							</header>
 							<ul class="features">
-								<li class="icon far fa-comments">
+								<li>
+									<span class="philosophy-icon business"></span>
+									<h3>Business First</h3>
+									<p>A website's role is to support your business. Everything will be designed around that purpose. I will not spend development hours trying to shave 30 milliseconds off of load time, if there are pages of the site that are not aesthetically pleasing.</p>
+								</li>
+								<li>
+									<span class="philosophy-icon communication"></span>
 									<h3>Communication</h3>
-									<p>Development is a deep field, and as such it easy to get lost and forget that people specialize in different areas. As a former business-centric person who has hired developers in the past, I understand first-hand how this can create countless problems down the road. I make it among my primary goals to be an effective communicator, no matter your background. </p>
+									<p>Programming is a very a deep field. As such, programmers tend to immerse themselves in the world, making it easy to forget that most of the world does not. I believe strongly that how well a piece of business went has a high correlation to how well it was communicated.</p>
 								</li>
-								<!-- <li class="icon fab fa-buffer"> -->
-								<li class="icon fab fa-codepen">
+								<li>
+									<span class="philosophy-icon modular"></span>
 									<h3>Modular Design</h3>
-									<p>I will design your website in a modular way, meaning components of the site will plug in to each other like lego. This allows your site to respond well to scaling, as bottleneck components can be more easily swapped out for more permitting ones</p>
+									<p>Code will be structured in such a way that components can plug into each other like lego. This makes the code easier to understand, and easier to scale.</p>
 								</li>
-								<li class="icon fas fa-dollar-sign">
+								<li>
+									<span class="philosophy-icon grandfathered"></span>
 									<h3>Grandfathered Rates</h3>
-									<p>The very nature of web design means there will be maintenance. As a result, I expect to have a long term relationship with my clients. For each project, I charge a single hourly rate throughout. Major changes are subject to discussion</p>
+									<p>The very nature of web design suggests there will be maintenance. Appropriately, I expect to have a long term relationship with my clients. For all projects, I charge a single hourly rate throughout. </p>
+									<!-- (add question mark with tooltip). Major revisions are subject to discussion. -->
 								</li>
-								<li class="icon fas fa-clipboard">
+								<li>
+									<span class="philosophy-icon reports"></span>
 									<h3>Weekly Progress Reporting</h3>
-									<p>Estimating the time it takes to program something is notoriously difficult. For this reason, I send detailed regular reports outlining the work I have done for the period and how many hours I have spent so far. This should prevent any surprises when it comes to updates, and will give you a better idea of where you think development time would be best spent..</p>
+									<p>I track my time very closely and take note of specifically where my development hours are spent. This information, among others, is summarized in a weekly report. I try to be as non-technical as possible, so we can make any necessary adjustments to the development process.</p>
 								</li>
-								<li class="icon fas fa-book-reader">
-									<h3>Learning</h3>
-									<p>If there comes a time that I am forced to learn an entirely new technology while working on your website, I will only invoice at 50% of my going rate.</p>
-								</li>
-								<li class="icon fas fa-user-friends">
+								<li>
+									<span class="philosophy-icon advice"></span>
 									<h3>Advice on Technical Decisions</h3>
-									<p>At the end of the day, this is your ship and you are free to steer it whichever direction you choose. However, I will serve as your advisor, and I will make my opinion known if I feel strongly about it. You can take this advice or leave it, but you can be sure that I will bring it up.</p>
+									<p>I take an interest in all my client's work. As such, I am always on the lookout for tech-related opportunities. Throughout the development process, I will communicate technological opportunities that may present themselves.</p>
 								</li>
 							</ul>
 						</div>
@@ -93,7 +123,7 @@ layout: landing
 					<section id="cta" class="wrapper style4">
 						<div class="inner">
 							<header>
-								<h2>Need more information?</h2>
+								<h2>Want to learn more about the development process?</h2>
 								<h2>Let's get in touch</h2>
 							</header>
 							<ul class="actions vertical">

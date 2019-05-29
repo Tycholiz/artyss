@@ -2,10 +2,14 @@
 #
 
 # Site settings
-title: Responsive and Modern Web Design
+title: Artys Web Design
+# description: |
+#   Responsive and Modern Development
 description: |
-  by Kyle Tycholiz
-owner: Tycholiz # or company name
+  Freelance web development
+description2: |
+  with a love for business and aesthetics
+owner: Artys Web Design # or company name
 first_published: 2019 # if migrating another site, the year of your first publish
 email: kyle.tycholiz@outlook.com
 baseurl: "" # the subpath of your site, e.g. /blog
