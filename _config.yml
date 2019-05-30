@@ -2,18 +2,13 @@
 #
 
 # Site settings
-title: Artys Web Design
-# description: |
-#   Responsive and Modern Development
-description: |
-  Freelance web development
-description2: |
-  with a love for business and aesthetics
-owner: Artys Web Design # or company name
+title: Artyss Web Design
+owner: Artyss Web Design # or company name
+description: Freelance web developer based in South Surrey
 first_published: 2019 # if migrating another site, the year of your first publish
 email: kyle.tycholiz@outlook.com
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://tycholiz.com" # the base hostname & protocol for your site
+baseurl: "/tycholiz" # the subpath of your site, e.g. /blog
+url: "tycholiz.github.io" # the base hostname & protocol for your site
 social:
   #twitter: https://twitter.com/<username>
   #github: https://github.com/<username>
