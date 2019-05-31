@@ -93,7 +93,7 @@
 	// * Contact Modal
 	$(function () {
 		$("#modal").iziModal({
-			title: "What's on your mind?"
+			title: "What are we building?"
 		});
 
 		$(document).on('click', '.trigger', function (event) {
