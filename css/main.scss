@@ -1261,7 +1261,7 @@ button,
 	}
 
 	&.alt {
-		padding: 0;
+		padding: 6em 0 0 0;
 	}
 
 	&.style1 {
@@ -1897,14 +1897,20 @@ body.is-mobile {
 .column-paragraph {
 	@include vendor('display', 'flex');
 	@include vendor('flex-direction', 'row');
+
 	@include breakpoint(small) {
 		@include vendor('flex-direction', 'column');
 	}
+
 	div {
 		flex-basis: 0;
 		flex-shrink: 0;
 		flex-grow: 1;
-		margin: 1.4em;
+		margin: 1.4em 1em;
+		max-width: calc(14em + 22vw);
+		@include breakpoint(small) {
+			margin: 1.4em auto;
+		}
 	}
 	h5 {
 		border: none !important;
@@ -1932,6 +1938,7 @@ section#one {
 			@include vendor('transition', ('transform 0.5s ease', 'opacity 0.5s ease'));
 			opacity: 1;
 			display: inline-block;
+			padding: 0.6em;
 
 			&:before, &:after {
 				@include vendor('transition', 'width 0.85s ease');
